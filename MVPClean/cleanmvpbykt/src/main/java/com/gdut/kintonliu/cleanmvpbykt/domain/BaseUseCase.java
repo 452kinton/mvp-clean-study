@@ -1,10 +1,10 @@
-package com.example.kintonliu.mvpclean.domain;
+package com.gdut.kintonliu.cleanmvpbykt.domain;
 
 import android.support.annotation.NonNull;
 
-import com.example.kintonliu.mvpclean.data.base.RequestEntity;
-import com.example.kintonliu.mvpclean.data.base.ResponseEntity;
-import com.example.kintonliu.mvpclean.presenetation.util.Preconditions;
+import com.gdut.kintonliu.cleanmvpbykt.data.base.RequestEntity;
+import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
+import com.gdut.kintonliu.cleanmvpbykt.presenetation.util.Preconditions;
 
 import io.reactivex.Observable;
 import io.reactivex.Scheduler;

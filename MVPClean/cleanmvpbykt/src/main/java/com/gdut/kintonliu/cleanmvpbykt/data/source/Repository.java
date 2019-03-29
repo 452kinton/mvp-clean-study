@@ -1,12 +1,8 @@
-package com.example.kintonliu.mvpclean.data.source;
+package com.gdut.kintonliu.cleanmvpbykt.data.source;
 
-import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
 
-import io.reactivex.Observable;
 
 public class Repository {
-
-
     private static Repository INSTANCE;
 
     private Repository(){
@@ -18,8 +14,8 @@ public class Repository {
         return INSTANCE;
     }
 
-    public Observable<ResponseEntity> getUser(String loginAccount, String loginPsw) {
+    /*public Observable<ResponseEntity> getUser(String loginAccount, String loginPsw) {
         return null;
-    }
+    }*/
 
 }

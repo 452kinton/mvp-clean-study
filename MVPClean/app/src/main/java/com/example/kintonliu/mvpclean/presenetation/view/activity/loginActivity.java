@@ -1,13 +1,11 @@
 package com.example.kintonliu.mvpclean.presenetation.view.activity;
 
-import com.example.kintonliu.mvpclean.R;
-import com.example.kintonliu.mvpclean.data.base.RequestEntity;
-import com.example.kintonliu.mvpclean.data.base.ResponseEntity;
 import com.example.kintonliu.mvpclean.data.entity.UserInfo;
-import com.example.kintonliu.mvpclean.presenetation.base.BaseActivity;
-import com.example.kintonliu.mvpclean.presenetation.base.BasePresenter;
 import com.example.kintonliu.mvpclean.presenetation.presenter.LoginPresenter;
 import com.example.kintonliu.mvpclean.presenetation.view.LoginView;
+import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
+import com.gdut.kintonliu.cleanmvpbykt.presenetation.base.BaseActivity;
+import com.gdut.kintonliu.cleanmvpbykt.presenetation.base.BasePresenter;
 
 public class loginActivity extends BaseActivity implements LoginView{
     @Override
@@ -41,9 +39,10 @@ public class loginActivity extends BaseActivity implements LoginView{
     }
 
     @Override
-    public UserInfo getLoginRequest() {
+    public UserInfo getRequestEntity() {
         return new UserInfo().setPassword(getPassword()).setUsername(getAccount());
     }
+
 
     @Override
     public void onSuccess(ResponseEntity e) {
@@ -55,8 +54,5 @@ public class loginActivity extends BaseActivity implements LoginView{
 
     }
 
-    @Override
-    public RequestEntity getRequestEntity() {
-        return null;
-    }
+
 }

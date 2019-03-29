@@ -1,10 +1,9 @@
 package com.example.kintonliu.mvpclean.domain.usecases;
 
-import com.example.kintonliu.mvpclean.data.base.RequestEntity;
-import com.example.kintonliu.mvpclean.data.base.ResponseEntity;
 import com.example.kintonliu.mvpclean.data.entity.UserInfo;
 import com.example.kintonliu.mvpclean.data.source.Repository;
-import com.example.kintonliu.mvpclean.domain.BaseUseCase;
+import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
+import com.gdut.kintonliu.cleanmvpbykt.domain.BaseUseCase;
 
 import io.reactivex.Observable;
 import io.reactivex.Scheduler;

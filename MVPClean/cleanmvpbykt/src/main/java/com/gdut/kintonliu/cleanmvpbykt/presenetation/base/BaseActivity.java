@@ -1,4 +1,4 @@
-package com.example.kintonliu.mvpclean.presenetation.base;
+package com.gdut.kintonliu.cleanmvpbykt.presenetation.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

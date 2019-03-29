@@ -1,12 +1,11 @@
 package com.example.kintonliu.mvpclean.presenetation.presenter;
 
-import com.example.kintonliu.mvpclean.data.base.Entity;
-import com.example.kintonliu.mvpclean.data.base.RequestEntity;
-import com.example.kintonliu.mvpclean.data.base.ResponseEntity;
+
 import com.example.kintonliu.mvpclean.domain.usecases.LoginUseCase;
-import com.example.kintonliu.mvpclean.presenetation.base.BasePresenter;
 import com.example.kintonliu.mvpclean.presenetation.util.InjectUtil;
 import com.example.kintonliu.mvpclean.presenetation.view.LoginView;
+import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
+import com.gdut.kintonliu.cleanmvpbykt.presenetation.base.BasePresenter;
 
 import io.reactivex.observers.DisposableObserver;
 

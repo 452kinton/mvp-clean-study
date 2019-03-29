@@ -1,6 +1,7 @@
 package com.gdut.kintonliu.cleanmvpbykt.data.entity;
 
-import com.example.kintonliu.mvpclean.data.base.RequestEntity;
+
+import com.gdut.kintonliu.cleanmvpbykt.data.base.RequestEntity;
 
 public class UserInfo extends RequestEntity {
     private String username;

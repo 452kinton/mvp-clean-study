@@ -1,15 +1,16 @@
 package com.example.kintonliu.mvpclean.data.source;
 
+
 import com.gdut.kintonliu.cleanmvpbykt.data.base.ResponseEntity;
 
 import io.reactivex.Observable;
 
+
 public class Repository {
-
-
-    private static Repository INSTANCE;
+    private static  Repository INSTANCE;
 
     private Repository(){
+
     }
 
     public static Repository getInstance() {

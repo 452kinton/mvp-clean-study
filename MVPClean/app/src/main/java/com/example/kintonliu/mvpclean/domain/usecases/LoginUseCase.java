@@ -8,12 +8,13 @@ import com.gdut.kintonliu.cleanmvpbykt.domain.BaseUseCase;
 import io.reactivex.Observable;
 import io.reactivex.Scheduler;
 
+
 public class LoginUseCase extends BaseUseCase<UserInfo,ResponseEntity> {
 
     private final Repository repository;
 
 
-    public LoginUseCase(Scheduler observerThread, Scheduler subcriberThread,Repository repository) {
+    public LoginUseCase(Scheduler observerThread, Scheduler subcriberThread, Repository repository) {
         super(observerThread, subcriberThread);
         this.repository = repository;
     }
